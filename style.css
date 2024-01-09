@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: black;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 40px;
+}
+.list{
+  height: 200px;
+  width: 200px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background: red;
+  right: 10%;
+  top: 5%;
+  cursor: pointer;
+}
+.btn2{
+  right: 5%;
+  background: lawngreen;
+
+}
